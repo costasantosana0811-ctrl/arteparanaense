@@ -1,9 +1,10 @@
-body{
-    background-color: rgb(128, 245, 225);
-    color: #222222; 
+body {
+    background-color: aliceblue;
+    color: #222222;
     font-family: Arial, sans-serif;
 }
-header{
+
+header {
     background-color: rgb(198, 226, 252);
     color: white;
     text-align: center;
@@ -21,4 +22,31 @@ h2 {
 p {
     font-size: 18px;
     line-height: 1.6;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 14px;
+    color: #555555;
+    margin-top: 8px;
 }
